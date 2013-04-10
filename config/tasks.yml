@@ -1,0 +1,3 @@
+kickstarter: 
+ feature_order: ['features/GoogleMaps.feature']
+ defaults: ['--format pretty', '-P -s']
