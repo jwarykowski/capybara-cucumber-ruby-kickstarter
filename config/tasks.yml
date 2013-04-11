@@ -1,3 +1,5 @@
 kickstarter: 
  feature_order: ['features/GoogleMaps.feature']
+ runtime_defaults:
+  controller: 'firefox'
  defaults: ['--format pretty', '-P -s']

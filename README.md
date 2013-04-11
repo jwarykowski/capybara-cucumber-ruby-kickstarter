@@ -7,7 +7,7 @@ was presented by Enrique Comba Riepenhausen at CukeUp 2013, please see the link:
 In order to get started with this project clone the repo and use the cukesparse gem! Please see more information about cukesparse at http://github.com/jonathanchrisp/cukesparse.
 To run the GoogleMap feature run the following on the CLI:
 
-`cukesparse kickstarter -c firefox` or `cukesparse kickstarter -c chrome`
-
+`cukesparse kickstarter` (runs firefox as default) or `cukesparse kickstarter -c chrome`
+ 
 ## Feedback
 I would be more than happy to recieve feedback, please contact me at jonathan.chrisp@gmail.com

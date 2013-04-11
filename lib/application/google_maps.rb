@@ -33,7 +33,7 @@ module Cucumber
 
       # Returns the capybara default driver
       def driver
-      	ENV['CONTROLLER'] ? ENV['CONTROLLER'].to_sym : :webkit
+      	ENV['CONTROLLER'].to_sym
       end
 
       # Opens google maps
