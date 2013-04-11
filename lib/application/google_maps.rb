@@ -39,15 +39,15 @@ module Cucumber
 
       # Opens google maps
  			def open_google_maps
- 				@world.visit '/maps'
+				visit '/maps'
  			end
 
-      # Verifies the google maps search page
-      # 
+      # Verifies the google maps search page for result
+      #
       # @param [String] search_result google map search result
-      def verify_result(search_result)
-        @world.within("div#resultspanel") do
-          @world.page.should @world.have_content search_result
+      def verify_search_result(search_result)
+        within("div#resultspanel") do
+          page.should @world.have_content search_result
         end
       end
     end

@@ -8,5 +8,5 @@ When(/^(the user) searches for "(.*?)"$/) do |user, term|
 end
 
 Then(/^(google maps) should have a "(.*?)" search result$/) do |application, search_result|
-  application.verify_result(search_result)
+  application.verify_search_result(search_result)
 end
