@@ -19,12 +19,12 @@ module Cucumber
 
       # Configures capybara
       def configure
-      	Capybara.configure do |config|
-				  config.run_server 				= false
-				  config.default_wait_time 	= 15
-				  config.app_host 					= host
-				  config.default_driver 		= driver
-				end
+        Capybara.configure do |config|
+          config.run_server         = false
+          config.default_wait_time  = 15
+          config.app_host           = host
+          config.default_driver     = driver
+        end
       end
 
       # Returns capybara app_host

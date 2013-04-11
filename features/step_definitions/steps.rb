@@ -1,6 +1,6 @@
 Given(/^I have opened (google maps) as (a anonymous user)$/) do |application, user|
-	application.open_google_maps
-	@current_user = user
+  application.open_google_maps
+  @current_user = user
 end
 
 When(/^(the user) searches for "(.*?)"$/) do |user, term|
