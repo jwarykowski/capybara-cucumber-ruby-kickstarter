@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jonathanchrisp/capybara-cucumber-ruby-kickstarter.png?branch=master)](https://travis-ci.org/jonathanchrisp/capybara-cucumber-ruby-kickstarter)
+[![Dependency Status](https://gemnasium.com/jonathanchrisp/capybara-cucumber-ruby-kickstarter.png)](https://gemnasium.com/jonathanchrisp/capybara-cucumber-ruby-kickstarter)
 
 #capybara-cucumber-ruby-kickstarter
 
