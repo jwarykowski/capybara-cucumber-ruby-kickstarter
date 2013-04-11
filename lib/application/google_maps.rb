@@ -8,12 +8,13 @@ module Cucumber
       def initialize(world)
         @world = world
 
-        # Register drivers
-        Capybara.register_driver(:chrome) 	{ |app| Capybara::Selenium::Driver.new(app, :browser => :chrome) }
-				Capybara.register_driver(:firefox) 	{ |app| Capybara::Selenium::Driver.new(app, :browser => :firefox) }
-
         # Configure capybara
       	configure
+      end
+
+      # Method missing
+      def method_missing(meth, *args, &block)
+        @world.send(meth, *args, &block)
       end
 
       # Configures capybara
@@ -26,7 +27,7 @@ module Cucumber
 				end
       end
 
-      # Returns Capybara app_host
+      # Returns capybara app_host
       def host 
       	'https://www.google.com'
       end
