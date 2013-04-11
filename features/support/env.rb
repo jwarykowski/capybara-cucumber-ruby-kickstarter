@@ -6,7 +6,7 @@ require 'capybara/rspec'
 require 'capybara/webkit'
 require 'pry'
 
-require_relative 'application_world'
+require './lib/application_world'
 
 World do
 	ApplicationWorld.new
