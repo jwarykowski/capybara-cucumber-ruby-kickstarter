@@ -7,6 +7,6 @@ When(/^(the user) searches for "(.*?)"$/) do |user, term|
   user.search(term)
 end
 
-Then(/^(google maps) should have a "(.*?)" search results$/) do |application, search_result|
+Then(/^(google maps) should have a "(.*?)" search result$/) do |application, search_result|
   application.verify_result(search_result)
 end
