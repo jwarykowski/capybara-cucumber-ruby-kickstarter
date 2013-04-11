@@ -3,7 +3,7 @@ module Cucumber
     class GoogleMaps
 
       # Initialize
-      # 
+      #
       # @param [Object] world cucumber world
       def initialize(world)
         @world = world
@@ -28,7 +28,7 @@ module Cucumber
       end
 
       # Returns capybara app_host
-      def host 
+      def host
       	'https://www.google.com'
       end
 
@@ -38,9 +38,9 @@ module Cucumber
       end
 
       # Opens google maps
- 			def open_google_maps
-				visit '/maps'
- 			end
+      def open_google_maps
+        visit '/maps'
+      end
 
       # Verifies the google maps search page for result
       #

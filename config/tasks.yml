@@ -1,4 +1,4 @@
-kickstarter: 
+kickstarter:
  feature_order: ['features/GoogleMaps.feature']
  runtime_defaults:
   controller: 'firefox'

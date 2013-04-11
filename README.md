@@ -11,6 +11,6 @@ In order to get started with this project clone the repo and use the cukesparse 
 To run the GoogleMap feature run the following on the CLI:
 
 `cukesparse kickstarter` (runs firefox as default) or `cukesparse kickstarter -c chrome`
- 
+
 ## Feedback
 I would be more than happy to recieve feedback, please contact me at jonathan.chrisp@gmail.com
