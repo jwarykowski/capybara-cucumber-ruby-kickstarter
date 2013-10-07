@@ -1,8 +1,5 @@
-require 'rubygems'
-require 'bundler'
 require 'capybara'
 require 'capybara/rspec'
-require 'pry'
 require './lib/application_world'
 
 World(Capybara::DSL, Capybara::RSpecMatchers)
