@@ -9,7 +9,7 @@ module Cucumber
         @world = world
 
         # Configure capybara
-      	configure
+        configure
       end
 
       # Method missing
@@ -29,17 +29,17 @@ module Cucumber
 
       # Returns capybara app_host
       def host
-      	'https://www.google.com'
+        'https://www.google.com'
       end
 
       # Returns the capybara default driver
       def driver
-      	ENV['CONTROLLER'].to_sym
+        ENV['CONTROLLER'].to_sym
       end
 
       # Opens google maps
       def open_google_maps
-        visit '/maps'
+        visit '/maps?output=classic&dg=opt'
       end
 
       # Verifies the google maps search page for result
