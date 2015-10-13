@@ -1,0 +1,5 @@
+
+default: --profile chrome --format pretty
+
+chrome: DRIVER=chrome
+firefox: DRIVER=firefox

@@ -15,7 +15,7 @@ module Cucumber
       # @param [String] term the search term
       def search(term)
         fill_in 'q', :with => term
-        click_button('gbqfb')
+        find('.searchbox-searchbutton-container').click
       end
     end
   end

@@ -5,7 +5,9 @@ before_install:
 
 language: ruby
 rvm:
+ - "2.2.2"
+ - "2.1.5"
  - "2.0.0"
  - "1.9.3"
 
-script: cukesparse kickstarter -c firefox
+script: cucumber

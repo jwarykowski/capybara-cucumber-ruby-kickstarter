@@ -12,7 +12,6 @@ test/tmp
 test/version_tmp
 tmp
 chromedriver.log
-libpeerconnection.log
 
 # YARD artifacts
 .yardoc

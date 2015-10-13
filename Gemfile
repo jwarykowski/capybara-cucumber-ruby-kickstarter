@@ -1,6 +1,4 @@
 source "http://rubygems.org"
-gem "cukesparse"
 gem "cucumber"
 gem "capybara"
 gem "selenium-webdriver"
-gem "rspec"
